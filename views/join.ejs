@@ -1,0 +1,33 @@
+<style>
+    main{
+        height: 80vh;
+    }
+    input{
+        margin: 10px;
+    }
+
+    .col-75 {
+        width: 75%;
+    }
+
+    .col-25{
+        float: left;
+        width: 25%;
+    }
+
+    input[type="submit"] {
+        clear: both;
+    }
+
+</style>
+<h2>Please enter your contact information below</h2>
+<form action ="/members" method="post">
+    <label for="firstName" class="col-25">First Name: </label><input type="text" name="firstName" placeholder="First Name" class="col-75">
+    <br>
+    <label for="lastName" class="col-25">Last Name: </label><input type="text" name="lastName" placeholder="Last Name" class="col-75">
+    <br>
+    <label for="email" class="col-25">Email: </label><input type="text" name="email" placeholder="any@domain.com" class="col-75"><br>
+    <label for="phone" class="col-25">Phone: </label><input type="text" name="phone" placeholder="000-000-0000" class="col-75"><br>
+    
+    <input type="submit" value="Submit" name="submit"><br>
+</form>

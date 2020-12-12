@@ -1,0 +1,147 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: "Open Sans Condensed";
+}
+main{
+    height: 80vh;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #E5E5E5;
+}
+nav, ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li, a{
+    display: inline;
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #627DDB;
+}
+
+main{
+    max-width: 80%;
+    margin:auto;
+}
+
+h1, h3{
+    color: #627DDB;
+}
+
+img{
+    max-width: 25%;
+}
+
+section, .banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-container{
+    position: relative;
+    background: #42AA4C;
+    color: white;
+    text-align: center;
+    margin: 72px 0px 72px 0px;
+}
+
+.banner-text{
+    margin:auto
+}
+.info{
+    max-width: 45%;
+}
+.insurance-text{
+    width: 45%;
+}
+
+.dropdowns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 15%;
+    line-height: 200.8%;
+}
+
+i:hover{
+    transform: scale(1.2);
+}
+
+.btn{
+    display: block;
+    background-color: #42AA4C;
+    padding: 10px;
+    margin: 48px 0 48px 0;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+}
+.btn:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 0px 5px 5px rgba(82, 245, 150, 0.2);
+}
+.btn-alt{
+    color: #42AA4C;
+    background-color: white;
+    padding: 10px;
+    border:none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+h2{
+    font-size: 40px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+h3{
+    font-size: 24px;
+    margin:48px 0 48px 0;
+}
+label, p{
+    line-height: 200.8%;
+    font-size: 16px;
+}
+input{
+    width: 60%;
+    padding: 8px;
+}
+footer{
+    background-color: #E5E5E5;
+    display: grid;
+    grid-template-areas: 
+    "footer-logo app-downloads footer-links"
+    "copy disclaimer social-links";
+    grid-row-gap: 20px;
+    padding: 20px;
+    grid-column-gap: 4rem;
+    justify-content: center;
+}
+.app-downloads{
+    display: flex;
+    flex-direction: row;
+}
+.social-links{
+    display: flex;
+    flex-direction: row;
+}
+.social{
+    background:  black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+}
