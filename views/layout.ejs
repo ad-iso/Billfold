@@ -8,6 +8,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script>
+        $(document).ready( function(){
+            $('.sub').hide();
+        });
+
+        function showOption(){
+        let opt = $('.sub')
+        
+        for(i=0; i<opt.length; i++){
+            opt[i].toggle();
+        }
+        }
+    </script>
 </head>
 <body>
     <header>

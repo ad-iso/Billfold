@@ -4,8 +4,9 @@
     box-sizing: border-box;
     font-family: "Open Sans Condensed";
 }
-main{
-    height: 80vh;
+
+:root{
+    --height: 80vh;
 }
 
 header{
